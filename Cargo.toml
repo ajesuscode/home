@@ -1,0 +1,17 @@
+[package]
+name = "home"
+version = "0.1.0"
+authors = ["ajesuscode"]
+license = "MIT"
+description = "A tool to check electricity and water status in France"
+repository = "https://github.com/ajesuscode/home"
+keywords = ["cli", "electricity", "water", "edf", "agur", "france"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+chrono = {version = "0.4.34", features = ["unstable-locales"]}
+clap = { version = "4.5.1", features = ["derive"] }
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.114"
