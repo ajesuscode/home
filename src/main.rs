@@ -44,14 +44,14 @@ async fn main() {
                 "TEMPO_BLEU" => "🔵",
                 "TEMPO_BLANC" => "⚪️",
                 "TEMPO_ROUGE" => "🔴",
-                _ => "unknown"
+                _ => "🤷🏼‍♀️"
             };
             println!("Today is {:?}", today_color);
             let tomorrow_color = match electricity.couleurJourJ1.as_str() {
                 "TEMPO_BLEU" => "🔵",
                 "TEMPO_BLANC" => "⚪️",
                 "TEMPO_ROUGE" => "🔴",
-                _ => "unknown"
+                _ => "🤷🏼‍♀️"
             };
             println!("Tomorrow will be {:?}", tomorrow_color)
         },
