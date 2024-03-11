@@ -7,6 +7,9 @@ description = "A tool to check electricity and water status in France"
 repository = "https://github.com/ajesuscode/home"
 keywords = ["cli", "electricity", "water", "edf", "agur", "france"]
 categories = ["command-line-utilities"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 chrono = {version = "0.4.34", features = ["unstable-locales"]}
