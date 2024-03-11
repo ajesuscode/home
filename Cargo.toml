@@ -5,7 +5,7 @@ authors = ["ajesuscode"]
 license = "MIT"
 description = "A tool to check electricity and water status in France"
 repository = "https://github.com/ajesuscode/home"
-keywords = ["cli", "electricity", "water", "edf", "agur", "france"]
+keywords = ["cli", "electricity", "water", "edf", "agur"]
 categories = ["command-line-utilities"]
 edition = "2021"
 
